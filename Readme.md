@@ -113,6 +113,8 @@ docker pull microros/micro_ros_static_library_builder:foxy && docker run --rm -v
     ![alt text](picture/image_file_sys.png)
 6. Соберите и запустите ваш проект.
 
+![alt text](picture/image-22.png)
+
 ### Настройка библиотеки micro-ROS
 
 Вся настройка micro-ROS может быть выполнена в файле colcon.meta перед шагом 3. Подробную информацию о том, как настроить использование статической памяти библиотеки, можно найти в руководстве по настройке Middleware.
