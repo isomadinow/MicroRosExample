@@ -50,7 +50,7 @@
 
 2. Выберите режим **Communication Device Class (Virtual Port Com)** в настройках **Middleware -> USB_DEVICE**.
 
-![alt text](image-1.png)
+![alt text](picture/image-1.png)
 
 **Примечание: транспорт micro-ROS надо настроить USB_DEVICE/App/usbd_cdc_if.c.**
 
@@ -90,8 +90,7 @@ docker pull microros/micro_ros_static_library_builder:foxy && docker run --rm -v
 
 ![alt text](picture/image-7.png)
 
-4. Добавьте предварительно скомпилированную библиотеку micro-ROS. В Project -> Settings -> C/C++ Build -> Settings -> MCU GCC Linker -> Libraries: (Если возникнуть проблемы с докером, во время build **[
-Проблема связанное с docker](https://www.notion.so/docker-cd842045d9404e7088a19e28e609aa00?pvs=21)** )
+4. Добавьте предварительно скомпилированную библиотеку micro-ROS. В Project -> Settings -> C/C++ Build -> Settings -> MCU GCC Linker -> Libraries: (Если возникнут проблемы с Docker во время сборки, см. раздел [Проблема связанное с Docker](#проблема-связанное-с-docker))
 
 ![alt text](picture/image-8.png)
 
