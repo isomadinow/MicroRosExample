@@ -78,7 +78,7 @@ git clone https://github.com/micro-ROS/micro_ros_stm32cubemx_utils.git
 ```bash
 docker pull microros/micro_ros_static_library_builder:foxy && docker run --rm -v ${workspace_loc:/${ProjName}}:/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:foxy
 ```
-#### Для Winodows. 
+#### Для Winodows пример изменить на свой путь. 
 ```bash
 docker pull microros/micro_ros_static_library_builder:foxy  && docker run --rm -v C:\\Users\\Ivan\\STM32CubeIDE\\workspace_1.15.1\\Ninochka_MicroRos:/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:foxy
 ```
