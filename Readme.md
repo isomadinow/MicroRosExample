@@ -74,10 +74,14 @@ git clone https://github.com/micro-ROS/micro_ros_stm32cubemx_utils.git
 
 ![alt text](picture/image-4.png)
 
+#### Для Linux.
 ```bash
 docker pull microros/micro_ros_static_library_builder:foxy && docker run --rm -v ${workspace_loc:/${ProjName}}:/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:foxy
 ```
-
+#### Для Winodows. 
+```bash
+docker pull microros/micro_ros_static_library_builder:foxy  && docker run --rm -v C:\\Users\\Ivan\\STM32CubeIDE\\workspace_1.15.1\\Ninochka_MicroRos:/project --env MICROROS_LIBRARY_FOLDER=micro_ros_stm32cubemx_utils/microros_static_library_ide microros/micro_ros_static_library_builder:foxy
+```
 ![alt text](picture/image-5.png)
 
 3. Добавьте директорию включаемых файлов micro-ROS. В Project -> Settings -> C/C++ Build -> Settings -> Tool Settings Tab -> MCU GCC Compiler -> Include paths добавьте 
